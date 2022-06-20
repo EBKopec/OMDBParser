@@ -62,6 +62,8 @@ Should not there be workers here?
 ### Usage mode
 ```
 go run cmd/main.go -filePath="data.tsv" -timeOut=10s -workers=10 -genres="Drama" -maxApiRequests=10 -plot="short" -apiKey="<APIKey>"
+or 
+main -filePath="data.tsv" -timeOut=10s -workers=10 -genres="Drama" -maxApiRequests=10 -plot="short" -apiKey="<APIKey>"
 ``` 
 ### Results
 ``` 
